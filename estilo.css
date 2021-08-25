@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contato-cabecalho{
+    display: flex;
+    justify-content: space-around;
+    background-color: #121214;
+    color: white;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left p{
+    margin:0 5px;
+}
+.right{
+    display: flex;
+}
+.right img{
+    width: 50px;
+    margin: 0 5px;
+}
+.titulo{
+    margin: 20px 0 55px 0;
+    text-align: center;
+
+}
+.titulo h1{
+    font-size: 43px;
+}
+/*---------------------------------*/
+/*navegaçâo*/
+nav{
+    display: flex;
+    justify-content: center;
+}
+.navegacao{
+    list-style-type: none;
+    position: absolute;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    background-color: #29878C;
+    width: 1000px;
+
+    justify-content: center;
+    border-radius: 5px;
+    top: 160px;
+}
+.navegacao li{
+    padding: 2%;
+}
+.navegacao li:hover{
+    background-color: #256266;
+}
+#corpo{
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+.foto-hospital{
+    z-index: 0;
+    height: 500px;
+    background-image: url("/img/doctor-with-a-stethoscope-in-the-hands-and-hospital-background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: #121214 0.1em 0.1em 0.2em
+}
+.botao{
+    margin-top: 8%;
+    padding: 20px 35px;
+    color: #606060;
+    background-color: #0000;
+}
+
+/* ---------------------------------- */
+/*sobre*/
+
+.sobre{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+.sobre li{
+
+    text-align: justify;
+}
+/*cores das listas*/
+.lista1{
+    background-color: #256266;
+    padding: 20px 20px 20px 100px;
+
+}
+.lista2{
+    padding: 20px;
+    background-color: #2a6c70;
+}
+.lista3{
+    padding: 20px;
+    background-color: #2d7579;
+}
+.lista4{
+    background-color: #317d81;
+    padding: 20px 100px 20px 20px;
+}
+.sobre div{
+    padding: 10px 0 10px 0;
+}
+/*--------------------*/
+
+.titulo-sobre{
+    text-align: center;
+    margin: 5% 0 10px 0;
+}
+.titulo-sobre h1{
+    font-size: 33px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.linha-baixo{
+    margin:0 45%;
+    border-bottom: 5px #256266 solid;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.lista-conhecanos{
+    width: 90%;
+    margin: auto;
+}
+.lista-conhecanos ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.lista-conhecanos li{
+    padding: 15px;
+}
+.lista-conhecanos div{
+    width: 100%;
+}
+.lista-conhecanos img{
+    width: 100%;
+}
+.lista-conhecanos h3{
+    margin: 6px 0;
+    color: #121214;
+}
+.lista-conhecanos p{
+    margin-bottom: 8px;
+}
+
+
+.menssage{
+    text-align: center;
+    padding: 35px 0;
+    background-color: #29878C;
+    color: white;
+    font-size: 23px;
+    margin: 40px 0;
+}
+
+.lista-outros-servicos{
+    list-style-type: none;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.lista-outros-servicos li{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.imagem{
+    margin-right: 20px;
+}
+
+.local{
+    margin-top: 70px;
+    background-image: url("/img/fundoMedicina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+.nossaEquipe{
+    width: 30%;
+    color: #121214;
+    text-align: center;
+}
+.nossaEquipe img{
+    width: 100%;
+}
+.nossaEquipe h2{
+    margin: 10px 0;
+}
+
+.galeria{
+    overflow: hidden;
+}
+.galeria ul{
+    list-style-type: none;
+    display: flex;
+    transition: 1s;
+}
+.galeria li{
+    margin: 0 5px;
+}
+.galeria img{
+    width: 250px;
+}
+
+
+.setas{
+    text-align: center;
+}
+.setas img{
+    margin-top: 5px;
+    width: 40px;
+}
+
+.mudar{
+    background-color: 0000;
+}
+
+.opiniao{
+    width: 100%;
+    height: 400px;
+    background-image: url("/img/cirurgia.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+.fundo{
+    width: 100%;
+    height: 100%;
+    background-color: #256266a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opniaoDentro{
+    display: flex;
+    width: 50%;
+    border: 1px dashed #fff;
+    padding: 2%;
+}
+.imgOpniao img{
+    width: 150px;
+    border-radius: 70%;
+}
+.textoOpniao{
+    color: #fff;
+    text-align: justify;
+    margin-left: 30px;
+}
+h4{
+    margin-top: 5px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+.rodape div{
+    width: 40%;
+}
+.contato{
+    display: flex;
+    margin: 10px 0;
+}
+.contato input{
+    margin-right: 5px;
+}
+.enviar{
+    padding: 10px;
+    background-color: #256266;
+    border: 0;
+    color: #ffff;
+}
+.rodape{
+    background-color: #121214d7;
+    color: #fff;
+    padding: 60px 0 60px 0;
+    text-align: justify;
+    
+}
+.rodape h1{
+    margin: 5px 0;
+}
+.botaoRodape{
+    margin: 10px 0;
+    color: #fff;
+    background-color: #256266;
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+}
+.rodapeFora{
+    background-color: #121214;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    color: #bbb9b9;
+
+}
+
+.rodape2{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.rodape2 li{
+    margin: 0 5px;
+}
+
+/* -------------------------------------------------------- */
+/* Animação */
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;  
+}
+[data-anime = "left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime = "right"] {
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime = "top"] {
+    transform: translate3d(0,-50px, 0);
+}
+[data-anime = "bottom"] {
+    transform: translate3d(0, 50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:1500px){
+    .navegacao{
+        width: 800px;
+        z-index: 1;
+    }
+    .sobre{
+        flex-wrap: wrap;
+    }
+    .sobre li{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    
+    .foto-hospital h1, p{
+        margin: 10px;
+    }
+    nav{
+        position: fixed;
+        top: 58px;
+    }
+    .active{
+        transform: translateX(-100%);
+    }
+    #line1.ativar{
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    #line2.ativar2{
+        opacity: 0;
+    }
+    #line3.ativar3{
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+
+
+    #menu-mobile div{
+        transition: .5s;
+        width: 40px;
+        height: 5px;
+        background-color: #256266;
+        margin: 8px;
+        box-shadow: inset 0 0 1em #256266, 0 0 1em black;
+    }
+    
+    .navegacao{
+        transition: .5s;
+
+        left: 0;
+        top: 105px;
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+    }
+    .navegacao li{
+        transition: .5s;
+    }
+    .navegacao li:hover{
+        padding: 22px;
+    }
+
+    .sobre li{
+        width: 90%;
+        padding: 25px;
+    }
+    .lista-conhecanos ul{
+        flex-wrap: wrap;
+    }
+    .lista-conhecanos li{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .lista-outros-servicos li{
+        width: 100%;
+        text-align: justify;
+        justify-content: center;
+    }
+    .opniaoDentro{
+        flex-direction: column;
+        align-items: center;
+    }
+    .local{
+        flex-direction: column;
+    }
+    .nossaEquipe{
+        width: 80%;
+    }
+    .opniaoDentro{
+        width: 90%;
+    }
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape div{
+        width: 85%;
+    }
+    .rodape h1{
+        text-align: left;
+    }
+    .contato{
+        flex-direction: column;
+    }
+    .contato input{
+        width: 115%;
+        margin: 2px 0;
+    }
+
+}
