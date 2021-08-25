@@ -64,7 +64,7 @@ nav{
 .foto-hospital{
     z-index: 0;
     height: 500px;
-    background-image: url("/img/doctor-with-a-stethoscope-in-the-hands-and-hospital-background.jpg");
+    background-image: url(" img/doctor-with-a-stethoscope-in-the-hands-and-hospital-background.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -189,7 +189,7 @@ nav{
 
 .local{
     margin-top: 70px;
-    background-image: url("/img/fundoMedicina.jpg");
+    background-image: url(" img/fundoMedicina.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -241,7 +241,7 @@ nav{
 .opiniao{
     width: 100%;
     height: 400px;
-    background-image: url("/img/cirurgia.jpg");
+    background-image: url(" img/cirurgia.jpg");
     background-size: cover;
     background-position: center;
     margin-top: 100px;
