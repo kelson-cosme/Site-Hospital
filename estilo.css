@@ -35,7 +35,7 @@
 /*navegaçâo*/
 nav{
     z-index: 1;
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content: center;
 }
@@ -51,7 +51,7 @@ nav{
 
     justify-content: center;
     border-radius: 5px;
-    top: 160px;
+    top: -25px;
 }
 .navegacao li{
     padding: 2%;
